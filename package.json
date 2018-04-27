@@ -1,6 +1,6 @@
 {
   "name": "react-instantiable-stateless",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create stateless React component with instance, to allow adding `ref`s",
   "keywords": [
     "react",

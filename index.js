@@ -21,7 +21,7 @@ function createReactClass (render) {
 
   // Attach render function
   Component.prototype.render = function () {
-    render(this.props)
+    return render(this.props)
   }
 
   return Component
@@ -60,7 +60,7 @@ function createInstantiableElement (element) {
     })
 
     // Cache non-stateless version of component
-    Object.defineProperty(Cls, nonStateless, {
+    Object.defineProperty(render, nonStateless, {
       enumerable: false,
       value: Cls
     })
@@ -75,7 +75,7 @@ function createInstantiableElement (element) {
   }
 
   // Clone element
-  return React.createElement(Cls[nonStateless], props)
+  return React.createElement(render[nonStateless], props)
 }
 
 module.exports = createInstantiableElement
