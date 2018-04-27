@@ -6,7 +6,7 @@ If you are using React 16.3+, you can use [React.forwardRef](https://reactjs.org
 
 ## Example
 
-```
+```js
 import React from 'react'
 import { findDOMNode } from 'react-dom'
 import createInstantiable from 'react-instantiable-stateless'
