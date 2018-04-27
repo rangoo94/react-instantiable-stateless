@@ -1,0 +1,26 @@
+{
+  "name": "react-instantiable-stateless",
+  "version": "1.0.0",
+  "description": "Create stateless React component with instance, to allow adding `ref`s",
+  "keywords": [
+    "react",
+    "ref",
+    "reference",
+    "stateless",
+    "instance",
+    "component"
+  ],
+  "main": "index.js",
+  "author": "Dawid Rusnak <dawid@drcode.pl>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rangoo94/react-instantiable-stateless.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rangoo94/react-instantiable-stateless/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*"
+  }
+}
