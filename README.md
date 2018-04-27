@@ -30,15 +30,8 @@ class Wrapper extends React.PureComponent {
       <div className='some-optional-wrapper'>
         {nextElement}
       </div>
+    )
   }
-}
-function Wrapper (props) {
-  const { children } = props
-
-  let ref
-  const set
-
-  const element = React.Children.only(children)
 }
 ```
 
