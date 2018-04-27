@@ -23,7 +23,7 @@ class Wrapper extends React.PureComponent {
     const instantiableElement = createInstantiable(element)
     const nextElement = React.cloneElement(
       instantiableElement,
-      ref => this.setRef(ref)
+      { ref: node => this.setRef(node) }
     )
 
     return (
